@@ -20,6 +20,7 @@
     <module>jobs/process/Aira_Active_Jobs/final/payroll_humanity_2.0</module>
     <module>jobs/process/Aira_2_Cymetrix_Build/Forecast/predicted_0.1</module>
     <module>jobs/process/github_talend_0.1</module>
+    <module>jobs/process/Aira_2_Cymetrix_Build/talend_job_0.1</module>
   </modules>
   <properties>
     <talend.project.name>LOCAL_PROJECT</talend.project.name>
