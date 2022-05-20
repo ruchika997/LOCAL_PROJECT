@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_HhTCAIA9Eey3ieVyXiWZoQ" name="aira_forecast" id="_Hf8-MIA9Eey3ieVyXiWZoQ" dataPackage="_HhTCAYA9Eey3ieVyXiWZoQ" Server="Localhost 127.0.0.1" FilePath="C:/Cymetrix Talend Jobs/input/aira_forecast/final_forecast.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_HhTCAYA9Eey3ieVyXiWZoQ" name="default" dataManager="_HhTCAIA9Eey3ieVyXiWZoQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HhTCAoA9Eey3ieVyXiWZoQ" id="_05-hkIA8Eey3ieVyXiWZoQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCA4A9Eey3ieVyXiWZoQ" label="Hour_of_Time" length="19" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCBIA9Eey3ieVyXiWZoQ" label="predicted_call_count" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCBYA9Eey3ieVyXiWZoQ" label="actual_call_count" length="-1" precision="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCBoA9Eey3ieVyXiWZoQ" label="predicted_call_length_avg" length="-1" precision="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCB4A9Eey3ieVyXiWZoQ" label="actual_call_length_avg" length="5" precision="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCCIA9Eey3ieVyXiWZoQ" label="count_diff" length="5" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCCYA9Eey3ieVyXiWZoQ" label="len_diff" length="6" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCCoA9Eey3ieVyXiWZoQ" label="count_diff_percent" length="20" precision="19" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCC4A9Eey3ieVyXiWZoQ" label="len_diff_percent" length="21" precision="19" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCDIA9Eey3ieVyXiWZoQ" label="agents_recommended" length="4" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhTCDYA9Eey3ieVyXiWZoQ" label="agents_worked" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PpuQwIKlEey3ieVyXiWZoQ" name="Total_calls_attended" label="Total_calls_attended" length="-1" precision="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PuwhwIKlEey3ieVyXiWZoQ" name="Total_missed_calls" label="Total_missed_calls" length="-1" precision="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N3I40IKlEey3ieVyXiWZoQ" name="Days" label="Days" length="-1" precision="-1" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

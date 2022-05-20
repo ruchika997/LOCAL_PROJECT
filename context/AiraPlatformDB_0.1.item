@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qmQKqNgCEey6FtTxPKDeAQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_qmQKqdgCEey6FtTxPKDeAQ" comment="" name="AiraPlatformDB_Password" prompt="AiraPlatformDB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:IEFL97E7k9wWOlYn8NOuyKuRc/39YNBasjjJyphk8QMmg7u75zH3NVlAfxYCrHHn5twB7cgG7rtDfjSS"/>
+  <contextParameter xmi:id="_qmQKqtgCEey6FtTxPKDeAQ" comment="" name="AiraPlatformDB_AdditionalParams" prompt="AiraPlatformDB_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=true&amp;trustCertificateKeyStoreUrl=file:c:\talend\rdsstore\rds-combined-ca-bundle.store&amp;trustCertificateKeyStorePassword=A1raAdm!n!@"/>
+  <contextParameter xmi:id="_qmQKq9gCEey6FtTxPKDeAQ" comment="" name="AiraPlatformDB_Login" prompt="AiraPlatformDB_Login?" promptNeeded="false" type="id_String" value="talend"/>
+  <contextParameter xmi:id="_qmQKrNgCEey6FtTxPKDeAQ" comment="" name="AiraPlatformDB_Server" prompt="AiraPlatformDB_Server?" promptNeeded="false" type="id_String" value="prod-rds-read-replica-looker.ca9rqvayki87.us-west-2.rds.amazonaws.com"/>
+  <contextParameter xmi:id="_qmQKrdgCEey6FtTxPKDeAQ" comment="" name="AiraPlatformDB_Port" prompt="AiraPlatformDB_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_qmQKrtgCEey6FtTxPKDeAQ" comment="" name="AiraPlatformDB_Database" prompt="AiraPlatformDB_Database?" promptNeeded="false" type="id_String" value="amgmt"/>
+</talendfile:ContextType>

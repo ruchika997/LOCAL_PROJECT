@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qmQKoNgCEey6FtTxPKDeAQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_qmQKodgCEey6FtTxPKDeAQ" comment="" name="AiraETLDB_Analytics_Port" prompt="AiraETLDB_Analytics_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_qmQKotgCEey6FtTxPKDeAQ" comment="" name="AiraETLDB_Analytics_Password" prompt="AiraETLDB_Analytics_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:UjByLAgqHC8RlJvxwcboQhKZvPxTG/i2fdiS2XGJZJlXKv7BSXC1kyOO93BDc/ZmeC6a"/>
+  <contextParameter xmi:id="_qmQKo9gCEey6FtTxPKDeAQ" comment="" name="AiraETLDB_Analytics_Login" prompt="AiraETLDB_Analytics_Login?" promptNeeded="false" type="id_String" value="airaioadmin"/>
+  <contextParameter xmi:id="_qmQKpNgCEey6FtTxPKDeAQ" comment="" name="AiraETLDB_Analytics_Database" prompt="AiraETLDB_Analytics_Database?" promptNeeded="false" type="id_String" value="etl"/>
+  <contextParameter xmi:id="_qmQKpdgCEey6FtTxPKDeAQ" comment="" name="AiraETLDB_Analytics_Schema" prompt="AiraETLDB_Analytics_Schema?" promptNeeded="false" type="id_String" value="pe_platform_events"/>
+  <contextParameter xmi:id="_qmQKptgCEey6FtTxPKDeAQ" comment="" name="AiraETLDB_Analytics_Server" prompt="AiraETLDB_Analytics_Server?" promptNeeded="false" type="id_String" value="127.0.0.1"/>
+</talendfile:ContextType>
