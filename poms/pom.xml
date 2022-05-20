@@ -22,6 +22,7 @@
     <module>jobs/process/github_talend_0.1</module>
     <module>jobs/process/Aira_2_Cymetrix_Build/talend_job_0.1</module>
     <module>jobs/process/trial2/new_talend_job_0.1</module>
+    <module>jobs/process/new_branch/sql_0.1</module>
   </modules>
   <properties>
     <talend.project.name>LOCAL_PROJECT</talend.project.name>
